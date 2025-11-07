@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --background: 0 0% 100%;
+    --foreground: 180 8% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 180 8% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 8% 15%;
+
+    --primary: 174 56% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 174 45% 65%;
+    --primary-glow: 174 60% 55%;
+
+    --secondary: 270 45% 92%;
+    --secondary-foreground: 180 8% 15%;
+
+    --muted: 180 20% 96%;
+    --muted-foreground: 180 8% 45%;
+
+    --accent: 270 60% 85%;
+    --accent-foreground: 180 8% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 180 15% 90%;
+    --input: 180 15% 90%;
+    --ring: 174 56% 42%;
+
+    --radius: 0.75rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Inter', sans-serif;;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', sans-serif;
+}
