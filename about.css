@@ -51,13 +51,13 @@
 
 .about__info__crp {
     display: inline-block;
-    background-color: white;
+    background-color: #000;
     border-radius: .8rem;
     padding: .75rem 1rem;
 }
 
 .about__info__crp p {
-    color: hsl(174 56% 42%);
+    color: white;
     font-weight: bold;
 }
 
